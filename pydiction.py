@@ -177,7 +177,7 @@ def get_yesno(msg="[Y/n]?"):
 
     """
     while True:
-        answer = raw_input(msg)
+        answer = input(msg)
         if answer == '':
             return True
         elif len(answer):
